@@ -3,7 +3,7 @@ from bson import json_util, ObjectId
 from flask_cors import CORS
 import os
 import json
-from common.database import Database
+from .common.database import Database
 from comments import Comment
 from photo import Photo
 
