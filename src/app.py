@@ -4,8 +4,8 @@ from flask_cors import CORS
 import os
 import json
 from .common.database import Database
-from comments import Comment
-from photo import Photo
+from .comments import Comment
+from .photo import Photo
 
 app = Flask(__name__)
 CORS(app)
