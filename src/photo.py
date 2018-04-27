@@ -1,7 +1,7 @@
 import uuid
 import datetime
-from common.database import Database
-from comments import Comment
+from .common.database import Database
+from .comments import Comment
 
 
 class Photo(object):

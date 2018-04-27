@@ -1,6 +1,6 @@
 import uuid
 import datetime
-from common.database import Database
+from .common.database import Database
 
 
 class Comment(object):
