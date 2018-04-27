@@ -5,7 +5,7 @@ import os
 
 
 class Database(object):
-    URI = os.environ.get("MONGOLAB_URI")
+    URI = 'mongodb://test1234:test1234@ds261429.mlab.com:61429/heroku_bzlbb14n'
     DATABASE = None
 
     @staticmethod  # static method to access URI and Database of class
