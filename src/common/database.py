@@ -1,12 +1,11 @@
 import pymongo
 import os
-from .keys import Key
 
 # Mongolab uri set in heroku with dyno
 
 
 class Database(object):
-    URI = Key
+    URI = os.environ.get("MONGOLAB_URI")
     DATABASE = None
 
     @staticmethod  # static method to access URI and Database of class
