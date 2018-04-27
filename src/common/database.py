@@ -1,6 +1,8 @@
 import pymongo
 import os
 
+# Mongolab uri set in heroku
+
 
 class Database(object):
     URI = os.environ.get("MONGOLAB_URI")
