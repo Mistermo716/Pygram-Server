@@ -1,7 +1,7 @@
 import pymongo
 import os
 
-# Mongolab uri set in heroku
+# Mongolab uri set in heroku with dyno
 
 
 class Database(object):
