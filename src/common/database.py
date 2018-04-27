@@ -12,7 +12,7 @@ class Database(object):
     def initialize():
         # static URI accessed through class
         client = pymongo.MongoClient(Database.URI)
-        Database.DATABASE = client['fullstack']
+        Database.DATABASE = client.get_default_database()
 
     @staticmethod
     def insert(collection, data):
