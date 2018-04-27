@@ -15,6 +15,11 @@ CORS(app)
 def initialize_database():
     Database.initialize()
 
+
+@app.route('/')
+def welcome():
+    return 'Welcome to pygram backend'
+
 # get all photos
 
 
